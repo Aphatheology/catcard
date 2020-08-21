@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #d8cfcf;
+    padding: 50px;
+}
+
+.likebody {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f3e9e9;
+    border-radius: 50px;
+    overflow: hidden;
+    
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 25px;
+}
+
+.cat-image {
+
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    margin: 0px auto 10px;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 50px 50px 0px 0px;
+    border-top: solid 2px solid;
+    background-color: white;
+    margin: 20px;
+}
+
+.container section {
+    margin: 25px auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    color: white;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.heart:hover {
+    transform: scale(1.5);
+}
+
+/* .hero .store {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.attribute {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attribute div {
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px #f3e9e9;
+    width: 30%;
+}
+
+.story, .attribute, .profile {
+    width: 90%;
+}
+
+.story h3 {
+    margin: 10px 0px;
+}
+
+.story p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile .bb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin: 5px;
+}
+
+.profile button {
+    background-color: #f3e9e9;
+    color: red;
+    border-radius: 100px;
+    padding: 15px 25px;
+    text-align: center;
+    border: none;
+    font-weight: bolder;
+}
+
+.profile button:hover {
+    background-color: red;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    margin: 25px auto;
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+        padding: 25px 15px;
+    }
+
+    nav {
+        padding: 25px;
+    }
+    
+    main {
+        width: 99%;
+    }
+
+    .cat-image {
+
+        text-align: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        margin: 0px auto 10px;
+    }
+}
+
+/* mobile (max-width: 400pxa) */
